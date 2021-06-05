@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Volunteering Association</title>
+   <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Pontano Sans' rel='stylesheet'>
+  </head>
+
+  <body>
+      <div style="background-image: url('elcarito-MHNjEBeLTgw-unsplash.jpg');">
+        <header>
+          <h1>Welcome to the Volunteering Association</h1>
+      
+          <br>
+          <div class ="welcome-text">
+            <h2><em> Learn about Volunteering and its Surprising Benefits</em></h2>
+            <div class="buttons">
+            </div>
+
+            <!--To be in the center and on a photo with low opacity-->
+          </div>
+        </header>
+      </div>
+          
+
+        <nav>
+            <ul>
+                <li><a href="#">Αρχική Σελίδα</a></li>
+                <li><a href="">Ποιοι είμαστε</a></li>
+                <li><a href="">Οι δράσεις μας</a></li>
+                <li><a href="">Στοιχεία επικοινωνίας</a></li>
+                <li><a href="">Ο λογαριασμός μου</a></li>
+            </ul>
+        </nav>
+    <!-- Slideshow container-->
+        <div class="slideshow-container">
+
+           <!--Full-width images with number and caption text-->
+          <div class="mySlides fade">
+            <img src="\elcarito-MHNjEBeLTgw-unsplash.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="\paparounes.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="\unsplash photo.jpg" style="width:100%">
+          </div>
+
+          <!--||Next and previous buttons--> 
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+         <!--The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      <!--Comment--> 
+
+    <h1>Part 1 | Οι δρασεις μας έως τώρα </h1>
+    <main class="container">
+     <article>      
+        <h3> 1. What happenedlast week... </h3>
+        <img src="\unsplash photo.jpg" alt="placeholder">
+        <p>Here is a paragraph about activity X. We painted some walls and now are hands are red. Good job to all of us, we are amazing, we deserve a cookie. </p>
+        <a href="#">Μάθε περισσότερα για τις δράσεις μας.</a>
+      </article>
+      <aside>
+        <h3> 2. Etymology of volunteering </h3>
+        <p>The verb was first recorded in 1755. It was derived from the noun volunteer, in c. 1600, "one who offers himself for military service," from the Middle French voluntaire.[3] In the non-military sense, the word was first recorded during the 1630s. The word volunteering has more recent usage—still predominantly military—coinciding with the phrase community service.[3][4] In a military context, a volunteer army is a military body whose soldiers chose to enter service, as opposed to having been conscripted. Such volunteers do not work "for free" and are given regular pay.</p>
+        
+      </aside>
+      <aside>
+        <h3> 3. Etymology of volunteering </h3>
+        <p>I need a photo here, give me a photo. The verb was first recorded in 1755. It was derived from the noun volunteer, in c. 1600, "one who offers himself for military service," from the Middle French voluntaire.[3] In the non-military sense, the word was first recorded during the 1630s. The word volunteering has more recent usage—still predominantly military—coinciding with the phrase community service.[3][4] In a military context, a volunteer army is a military body whose soldiers chose to enter service, as opposed to having been conscripted. Such volunteers do not work "for free" and are given regular pay.</p>
+        
+      </aside>
+    </main>
+    
+    <h1>Part 2 | Επερχόμενες δράσεις</h1>
+
+    <main class="container">
+      <article>      
+         <h3> 1. What happenedlast week... </h3>
+         <img src="\jacob-dyer-kW0jVmNVT8Q-unsplash.jpg" alt="placeholder">
+         <p>Here is a paragraph about activity X. We painted some walls and now are hands are red. Good job to all of us, we are amazing, we deserve a cookie. </p>
+         <a href="#">Μάθε περισσότερα για τις δράσεις μας.</a>
+       </article>
+       <aside>
+         <h3> 2. Etymology of volunteering </h3>
+         <img src="luke-peterson-fcP8Dk7uJQs-unsplash.jpg" alt="placeholder">
+         <p>The verb was first recorded in 1755. It was derived from the noun volunteer, in c. 1600, "one who offers himself for military service," from the Middle French voluntaire.[3] In the non-military sense, the word was first recorded during the 1630s. The word volunteering has more recent usage—still predominantly military—coinciding with the phrase community service.[3][4] In a military context, a volunteer army is a military body whose soldiers chose to enter service, as opposed to having been conscripted. Such volunteers do not work "for free" and are given regular pay.</p>
+         
+       </aside>
+       <aside>
+         <h3> 3. Etymology of volunteering </h3>
+         <img src="marek-piwnicki-vKmDvHtbtbg-unsplash.jpg" alt="placeholder">
+         <p>I need a photo here, give me a photo. The verb was first recorded in 1755. It was derived from the noun volunteer, in c. 1600, "one who offers himself for military service," from the Middle French voluntaire.[3] In the non-military sense, the word was first recorded during the 1630s. The word volunteering has more recent usage—still predominantly military—coinciding with the phrase community service.[3][4] In a military context, a volunteer army is a military body whose soldiers chose to enter service, as opposed to having been conscripted. Such volunteers do not work "for free" and are given regular pay.</p>
+         
+       </aside>
+     </main>
+  
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      <script src="home.js"></script>
+  </body>
+
+</html>
